@@ -1,0 +1,26 @@
+class ClassName {
+    constructor(parameter1, parameter2) {
+      this.attribute1 = parameter1;
+      this.attribute2 = parameter2;
+    }
+  
+    methodName() {
+      return 'Attribute1: ${this.attribute1},Attribute2: ${this.attribute2}';
+    }
+  }
+  
+  // Example
+  class Person {
+    constructor(name, age) {
+      this.name = name;
+      this.age = age;
+    }
+  
+    greet() {
+      return' Hi, my name is ${this.name} and I am ${this.age} years old.';
+    }
+  }
+  
+  // Usage
+  const person1 = new Person("Sandeep", 25);
+  console.log(person1.greet());
